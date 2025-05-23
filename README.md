@@ -41,14 +41,27 @@ The app will run at http://localhost:3000.
    To create a production build:
    npm run build
 
-Project Structure
+5. Deploy to GitHub Pages
+   This app uses gh-pages for deployment.
 
-custom-event-calendar/
-├── public/           # Static files
-├── src/              # App source code
-│   ├── Components/   # Calendar and EventForm
-│   ├── contexts/     # Context API for event state
-│   └── App.js        # Entry point
+To deploy:
 
+Ensure "homepage" is added in your package.json like so:
+
+json:
+
+"homepage": "https://Balaaditya04.github.io/Custom-Event-Calendar"
+
+Add the following deploy script:
+
+json:
+
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+Then deploy: 
+
+npm run deploy
 
 
