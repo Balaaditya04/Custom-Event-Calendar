@@ -42,9 +42,7 @@ The app will run at http://localhost:3000.
    npm run build
 
 Project Structure
-csharp
-Copy
-Edit
+
 custom-event-calendar/
 ├── public/           # Static files
 ├── src/              # App source code
