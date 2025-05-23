@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Custom-Event-Calendar
+A dynamic and user-friendly custom event calendar built with React. Features include monthly views, event creation/editing, drag-and-drop rescheduling, and conflict detection — ideal for personal or team scheduling.
+>>>>>>> 79656152b99c66155379c27d94da871d124305ed
